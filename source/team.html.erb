@@ -1,0 +1,12 @@
+<div class="container text-center">
+  <h1>My Buddy and me</h1>
+  <ul class="list-inline text-center">
+  <% ["beckahsiao", "zara-sh"].each do |gh_username| %>
+    <li>
+      <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+      <h3><%= gh_username.capitalize %></h3>
+    </li>
+  <% end %>
+</ul>
+
+</div>
